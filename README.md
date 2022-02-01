@@ -5,4 +5,4 @@ The index file has the HTML script for the homepage and the style file has the C
 All other files are the assets used in the script
 
 **To display page :**
-Download the contents and store it in the same folder then open the index file.
+Download the contents and store it in the same folder then open the scripts using VS Code and host using live server.
