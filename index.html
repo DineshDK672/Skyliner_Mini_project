@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Skyliner Home</title>
+</head>
+    <body>
+        <section class ="showcase active">
+            <header>
+                <h2 class="logo">Skyliner</h2>
+                <div class="toggle active"></div>
+            </header>
+            <video src="cloud_video.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>Fly Cozy. Fly Right.</h2>
+                <p>Buisness trips? Vacations? or Meeting your loved ones? Never let the situation determine your experience. Find the right flights at right cost with comfort like home. Fly with us, Fly right.</p>
+                <a href="#">Flights</a>
+            </div>
+            <ul class="social">
+                <li><a href="#"><img src="fb.png" width = '40px' alt="Facebook logo" ></a></li>
+                <li><a href="#"><img src="insta.png" width = '40px' alt="Instagram logo"></a></li>
+                <li><a href="#"><img src="twitter.png" width = '40px'alt="Twitter logo"></a></li>
+            </ul>
+        </section>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Fares</a></li>
+                <li><a href="#">Trip Quote</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click',() => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+    </body>
+</html>
